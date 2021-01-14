@@ -1,0 +1,18 @@
+h2 {
+color: rgb(216, 40, 40);
+font-size-adjust: inherit;
+font-style: italic;
+}
+
+h3{
+color: khaki;
+}
+p{
+background-color: lemonchiffon;
+
+}
+p.note{
+background-color: lightcoral;
+font-style: italic;
+
+}
