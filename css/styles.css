@@ -16,7 +16,8 @@ background-color: paleturquoise;
 
 body {
 background-color: papayawhip;
-
+margin-left: 40px;
+margin-right: 30px;
 }
 
 article{
@@ -31,5 +32,13 @@ text-decoration: rebeccapurple;
     font-weight: bold;
 }
 span, em {
-    background-color: blueviolet;
+    background-color: rgb(217, 192, 240);
 }
+figcaption {
+    color: black;
+    font-style: italic;
+    text-align: left;
+  }
+   link:hover {
+    background-color:red;
+  }
