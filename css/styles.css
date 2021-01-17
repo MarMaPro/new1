@@ -1,18 +1,20 @@
+h1 {
+color:red;
+font-size: 16px;
+margin-bottom: 20px;
+border-bottom: 5x solid blueviolet;
+}
+
 h2 {
 color: rgb(216, 40, 40);
 font-size-adjust: inherit;
-font-style: italic;
+font-style: Fantasy;
 }
 
 h3{
 color: khaki;
 }
 p{
-background-color: lemonchiffon;
-
-}
-p.note{
-background-color: lightcoral;
-font-style: italic;
+background-color: pink;
 
 }
