@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 4 </title>
+    <style>
+        .wrapper, footer{
+            margin: auto;
+            width: 80%;
+        }
+        .topmenu{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-end;
+            margin: 0;
+            background-color: plum;
+        }
+         .topmenu >li {
+            list-style: none;
+            padding: lem;
+            color:black;
+        }
+        .flexgrowcon {
+            display: flex;
+            align-items: stretch;
+        }
+
+        leftbar, rightbar {
+            background-color: lightskyblue;
+            
+        }
+        footer {
+            background-color: plum;
+            color:white;
+            height: 40px;
+            text-align: center;
+        }
+       article{
+           margin: 1px;
+           background-color: blanchedalmond;
+       }
+       nav{
+           background-color: aqua;
+       }
+
+
+        
+
+    </style>
+</head>
+<body>
+    <div class="wrapper"> 
+    <header>
+<ul class="topmenu">
+    <li>  Link 1 </li>
+    <li>  Link 2 </li>
+    <li>  Link 3 </li>
+    <li>  Link 4 </li>
+</ul>
+</header>
+
+<div class="flexgrowcon">
+    <leftbar style="flex-grow:2;">
+        "Tähän tulee tekstiä. 
+        <nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+</nav>
+    </leftbar>
+
+    <content style="flex-grow 4;">
+       
+        <article>
+            <h2>Friedrich Nietzsche</h2>
+            <p>Friedrich Wilhelm Nietzsche (/ˈniːtʃə, ˈniːtʃi/;[32] German: [ˈfʁiːdʁɪç ˈvɪlhɛlm ˈniːtʃə] (About this soundlisten) or [ˈniːtsʃə];[33][34] 15 October 1844 – 25 August 1900) was a German philosopher, cultural critic, composer, poet, writer, and philologist whose work has exerted a profound influence on modern intellectual history.[35][36][37][38][39]
+                 He began his career as a classical philologist before turning to philosophy. He became the youngest person ever to hold the Chair of Classical Philology at the University of Basel in 1869 at the age of 24.[2]
+                  Nietzsche resigned in 1879 due to health problems that plagued him most of his life; 
+                 he completed much of his core writing in the following decade.[40] In 1889, at age 44, he suffered a collapse and afterward a complete loss of his mental faculties.
+            <br></br>
+
+                 He lived his remaining years in the care of his mother until her death in 1897 and then with his sister Elisabeth Förster-Nietzsche. Nietzsche died in 1900.[41]
+                Nietzsche's writing spans philosophical polemics, poetry, cultural criticism, and fiction while displaying a fondness for aphorism and irony.[42] 
+                Prominent elements of his philosophy include his radical critique of truth in favor of perspectivism; 
+                a genealogical critique of religion and Christian morality and related theory of master–slave morality;[36][43][i] the aesthetic affirmation of existence in response to the "death of God" and the profound crisis of nihilism;
+                [36] the notion of Apollonian and Dionysian forces; and a characterization of the human subject as the expression of competing wills, collectively understood as the will to power.[44] He also developed influential concepts such as the Übermensch and the doctrine of eternal return.[45][46] In his later work,
+                 he became increasingly preoccupied with the creative powers of the individual to overcome cultural and moral mores in pursuit of new values and aesthetic health.[39] 
+                His body of work touched a wide range of topics, including art, philology, history, religion, tragedy, culture, and science, and drew early inspiration from figures such as philosopher Arthur Schopenhauer,[20] composer Richard Wagner,[20] and writer Johann Wolfgang von Goethe.[20]
+                After his death, his sister Elisabeth became the curator and editor of Nietzsche's manuscripts. 
+                She edited his unpublished writings to fit her German ultranationalist ideology while often contradicting or obfuscating Nietzsche's stated opinions, which were explicitly opposed to antisemitism and nationalism. Through her published editions, Nietzsche's work became associated with fascism and Nazism;[47] 20th-century scholars contested this interpretation, 
+                and corrected editions of his writings were soon made available. Nietzsche's thought enjoyed renewed popularity in the 1960s and his ideas have since had a profound impact on 20th and early-21st century thinkers across philosophy—especially in schools of continental philosophy such as existentialism, postmodernism and post-structuralism—as well as art, literature, psychology, politics, and popular culture.[37][38][39][48][49]</p>
+            </article>
+
+        </content>
+    <rightbar style="flex-grow:2;">
+        "Tähän tulee tekstiä. 
+
+    </rightbar>
+
+</div>
+
+</div>
+<div>
+
+</div>
+<footer>
+    Täällä on sivun alalaita
+
+</footer>
+  </div>
+</body>
+</html>
