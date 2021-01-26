@@ -5,15 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercise 4 </title>
     <style>
+      
+    
         .wrapper, footer{
+            
             margin: auto;
-            width: 80%;
+            width: 70%;
+            background-color: plum;
+            color:black;
+        }
+        header{
+            height: 40px;
+            background-color:lightskyblue;
         }
         .topmenu{
             display: flex;
             flex-flow: row wrap;
             justify-content: flex-end;
             margin: 0;
+            height: 70px;
             background-color: plum;
         }
          .topmenu >li {
@@ -22,62 +32,90 @@
             color:black;
         }
         .flexgrowcon {
-            display: flex;
-            align-items: stretch;
+            display: flex;   
+            margin-top: 25px;
+            font-family: 'Courier New', Courier, monospace;
+
+        }
+        topbar {
+            background-color: plum;
+            min-height: 50px;    
         }
 
-        leftbar, rightbar {
-            background-color: lightskyblue;
-            
-        }
-        footer {
+       article{
+           margin: 0px;
+           background-color: lightgrey;
+       }
+       footer {
             background-color: plum;
-            color:white;
-            height: 40px;
+            color:black;
+            height: 70px;
             text-align: center;
         }
-       article{
-           margin: 1px;
-           background-color: blanchedalmond;
-       }
        nav{
-           background-color: aqua;
+           background-color: rgb(252, 217, 201);
        }
-
-
-        
+       image{
+           height: auto;
+           align-items: right;
+           
+       }
+       body{
+           background-color:rgb 247, 249, 249 ;
+       }
+       link{
+           color: darkmagenta;
+       }
+        table{
+            text-emphasis: none;
+        }
+        h2, h4, h5{
+            color: black;
+            text-align: center;
+            margin-top: 1px;
+        }
 
     </style>
 </head>
 <body>
-    <div class="wrapper"> 
-    <header>
+    <div class="wrapper"
+    This is the wrapper>
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="https://marmapro.github.io/new1/exercise4">HOME</a>
+        <a class="navbar-brand" href="https://fi.wikipedia.org/wiki/Friedrich_Nietzsche">Read more!</a>
+        <a class="navbar-brand" href="https://www.amazon.com/Friedrich-Nietzsche/e/B000APYT8O%3Fref=dbs_a_mng_rwt_scns_share">Buy a book!</a>
+      </nav>
+    <header>  
 <ul class="topmenu">
-    <li>  Link 1 </li>
-    <li>  Link 2 </li>
-    <li>  Link 3 </li>
-    <li>  Link 4 </li>
+    <li> <a href="https://fi.wikipedia.org/wiki/Friedrich_Nietzsche">Suomeksi </a> </li>
+    <li>&nbsp;</li>
+    <li> <a href="https://sv.wikipedia.org/wiki/Friedrich_Nietzsche">På svenska </a> </li> 
+    <li>&nbsp;</li>
+    <li><a href="https://de.wikipedia.org/wiki/Friedrich_Nietzsche">Aus Deutsch </a> </li>
+    
 </ul>
 </header>
-
 <div class="flexgrowcon">
-    <leftbar style="flex-grow:2;">
-        "Tähän tulee tekstiä. 
-        <nav class="navbar navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
-</nav>
-    </leftbar>
-
+    <p><b><i>     “And those who were seen dancing were thought to be insane by those who could not hear the music.”</i></b> </p>
+    <topbar style="flex-grow:1;">
+        <img src="images/nietzsche.jpg" alt="Nietzsche" > 
+        <h5>Friedrich Nietzsche</h5>
+    </topbar>
+    </div>
     <content style="flex-grow 4;">
        
         <article>
+            <hr></hr>
             <h2>Friedrich Nietzsche</h2>
+            <hr></hr>
+            
             <p>Friedrich Wilhelm Nietzsche (/ˈniːtʃə, ˈniːtʃi/;[32] German: [ˈfʁiːdʁɪç ˈvɪlhɛlm ˈniːtʃə] (About this soundlisten) or [ˈniːtsʃə];[33][34] 15 October 1844 – 25 August 1900) was a German philosopher, cultural critic, composer, poet, writer, and philologist whose work has exerted a profound influence on modern intellectual history.[35][36][37][38][39]
                  He began his career as a classical philologist before turning to philosophy. He became the youngest person ever to hold the Chair of Classical Philology at the University of Basel in 1869 at the age of 24.[2]
                   Nietzsche resigned in 1879 due to health problems that plagued him most of his life; 
                  he completed much of his core writing in the following decade.[40] In 1889, at age 44, he suffered a collapse and afterward a complete loss of his mental faculties.
             <br></br>
-
+            
+            <br></br>
                  He lived his remaining years in the care of his mother until her death in 1897 and then with his sister Elisabeth Förster-Nietzsche. Nietzsche died in 1900.[41]
                 Nietzsche's writing spans philosophical polemics, poetry, cultural criticism, and fiction while displaying a fondness for aphorism and irony.[42] 
                 Prominent elements of his philosophy include his radical critique of truth in favor of perspectivism; 
@@ -88,13 +126,10 @@
                 After his death, his sister Elisabeth became the curator and editor of Nietzsche's manuscripts. 
                 She edited his unpublished writings to fit her German ultranationalist ideology while often contradicting or obfuscating Nietzsche's stated opinions, which were explicitly opposed to antisemitism and nationalism. Through her published editions, Nietzsche's work became associated with fascism and Nazism;[47] 20th-century scholars contested this interpretation, 
                 and corrected editions of his writings were soon made available. Nietzsche's thought enjoyed renewed popularity in the 1960s and his ideas have since had a profound impact on 20th and early-21st century thinkers across philosophy—especially in schools of continental philosophy such as existentialism, postmodernism and post-structuralism—as well as art, literature, psychology, politics, and popular culture.[37][38][39][48][49]</p>
-            </article>
+<br>
 
-        </content>
-    <rightbar style="flex-grow:2;">
-        "Tähän tulee tekstiä. 
+            </article> </content>
 
-    </rightbar>
 
 </div>
 
@@ -103,7 +138,14 @@
 
 </div>
 <footer>
-    Täällä on sivun alalaita
+    <h4> <b>Birth and death:</b> </h4>
+    <table>
+        <tr><b>Born: </b>15 October 1844 Röcken, Saxony, Prussia
+        </tr>
+        <tr><b> Died: </b>25 August 1900 (aged 55)Weimar, Saxe-Weimar-Eisenach, German Empire
+        </tr>
+    </table>
+
 
 </footer>
   </div>
